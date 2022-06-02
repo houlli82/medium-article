@@ -1,0 +1,86 @@
+@media (min-width:320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .container {
+    background-color: blue;
+  }
+}
+
+@media (min-width:481px)  {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .container {
+    background-color: red;
+  }
+}
+
+@media (min-width:641px)  {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .container {
+    background-color: green;
+  }
+}
+
+@media (min-width:961px)  {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .container {
+    background-color: pink;
+  }
+}
+
+@media (min-width:1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .container {
+    background-color: purple;
+  }
+}
+
+@media (min-width:1281px) {
+  /* hi-res laptops and desktops */
+  .container {
+    background-color: yellow;
+  }
+}
+
+body{
+  background-color: black;
+}
+
+.container {
+  padding:20px;
+  border-radius: 4px;
+}
+
+.container > div {
+
+  font-family:sans-serif;
+}
+
+.banner {
+  align-content: space-around;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  width: 90%;
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 4px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-container-1, .article-container-2, .article-container-3 {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  width: 90%;
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 4px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
